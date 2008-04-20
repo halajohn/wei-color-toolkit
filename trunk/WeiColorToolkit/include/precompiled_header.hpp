@@ -27,6 +27,8 @@
 #include <iostream>
 #include <fstream>
 
+#define BOOST_ALL_DYN_LINK
+
 #pragma warning(disable: 4819)
 #include <boost/foreach.hpp>
 #include <boost/numeric/ublas/matrix.hpp>
